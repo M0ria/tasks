@@ -3,13 +3,21 @@ Content-Type: application/json
 Accept: application/json
 
 {
-    "name": "task1",
-    "assignee": "Maria",
+    "name": "task3",
+    "assignee": "Maria Rita",
     "time": 23337687,
     "creator": "Lucas"
 }
 
 ###
 GET http://localhost:3000/tasks HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+###
+PUT http://localhost:3000/tasks/aa21facd-2907-42f3-9d5b-df29fdc9c460 HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+###
+DELETE http://localhost:3000/tasks/4feb029e-3d11-48eb-b45c-b836c2c24fed HTTP/1.1
 Content-Type: application/json
 Accept: application/json
