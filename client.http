@@ -1,0 +1,15 @@
+POST http://localhost:3000/tasks HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "task1",
+    "assignee": "Maria",
+    "time": 23337687,
+    "creator": "Lucas"
+}
+
+###
+GET http://localhost:3000/tasks HTTP/1.1
+Content-Type: application/json
+Accept: application/json
